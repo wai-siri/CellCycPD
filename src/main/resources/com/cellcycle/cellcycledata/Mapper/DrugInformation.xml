@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cellcycle.cellcycledata.Dao.DrugInformationDao">
+
+  <resultMap type="com.cellcycle.cellcycledata.Entity.DrugInformation" id="DrugInformationMap">
+    <result property="drug" column="drug" jdbcType="VARCHAR"/>
+    <result property="information" column="information" jdbcType="VARCHAR"/>
+  </resultMap>
+
+  <!-- 查询所有药物信息 -->
+  <select id="selectAllDrugInformation" resultMap="DrugInformationMap">
+    SELECT * FROM drug_information
+  </select>
+
+  <!-- 根据药物名称查询信息 -->
+  <select id="selectByDrug" resultMap="DrugInformationMap">
+    SELECT * FROM drug_information WHERE drug = #{drug}
+  </select>
+
+</mapper>

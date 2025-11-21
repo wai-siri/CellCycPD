@@ -1,0 +1,106 @@
+gene	Cancer_Hallmark
+ABL1	Genome Instability and Mutation
+ABL1	Tissue Invasion and Metastasis
+ATM	Self Sufficiency in Growth Signals
+ATM	Insensitivity to Antigrowth Signals
+ATM	Genome Instability and Mutation
+ATR	Genome Instability and Mutation
+CCNA2	Reprogramming Energy Metabolism
+CCNB1	Reprogramming Energy Metabolism
+CCNB1	Self Sufficiency in Growth Signals
+CCND1	Self Sufficiency in Growth Signals
+CCND2	Evading Apoptosis
+CCND2	Self Sufficiency in Growth Signals
+CCND3	Insensitivity to Antigrowth Signals
+CCND3	Self Sufficiency in Growth Signals
+CDC14B	Genome Instability and Mutation
+CDC20	Self Sufficiency in Growth Signals
+CDC25B	Self Sufficiency in Growth Signals
+CDC6	Insensitivity to Antigrowth Signals
+CDC7	Self Sufficiency in Growth Signals
+CDK1	Tissue Invasion and Metastasis
+CDK1	Evading Apoptosis
+CDK1	Genome Instability and Mutation
+CDK2	Self Sufficiency in Growth Signals
+CDK2	Genome Instability and Mutation
+CDK4	Self Sufficiency in Growth Signals
+CDK4	Insensitivity to Antigrowth Signals
+CDK6	Insensitivity to Antigrowth Signals
+CDK6	Self Sufficiency in Growth Signals
+CDK7	Genome Instability and Mutation
+CDKN1A	Evading Apoptosis
+CDKN1A	Insensitivity to Antigrowth Signals
+CDKN1A	Limitless Replicative Potential
+CDKN1B	Evading Apoptosis
+CDKN1B	Insensitivity to Antigrowth Signals
+CDKN1B	Self Sufficiency in Growth Signals
+CDKN2A	Insensitivity to Antigrowth Signals
+CDKN2A	Limitless Replicative Potential
+CDKN2B	Insensitivity to Antigrowth Signals
+CDKN2C	Insensitivity to Antigrowth Signals
+CDKN2D	Insensitivity to Antigrowth Signals
+CHEK1	Genome Instability and Mutation
+CHEK1	Self Sufficiency in Growth Signals
+CHEK2	Genome Instability and Mutation
+CHEK2	Limitless Replicative Potential
+CUL1	Insensitivity to Antigrowth Signals
+E2F1	Reprogramming Energy Metabolism
+E2F3	Self Sufficiency in Growth Signals
+FZR1	Self Sufficiency in Growth Signals
+FZR1	Genome Instability and Mutation
+GADD45A	Genome Instability and Mutation
+GSK3B	Insensitivity to Antigrowth Signals
+GSK3B	Tissue Invasion and Metastasis
+GSK3B	Evading Apoptosis
+HDAC1	Evading Apoptosis
+HDAC1	Self Sufficiency in Growth Signals
+HDAC2	Evading Apoptosis
+HDAC2	Self Sufficiency in Growth Signals
+MAD2L1	Evading Apoptosis
+MAD2L2	Genome Instability and Mutation
+MDM2	Self Sufficiency in Growth Signals
+MDM2	Evading Apoptosis
+MDM2	Reprogramming Energy Metabolism
+MYC	Evading Apoptosis
+MYC	Self Sufficiency in Growth Signals
+MYC	Reprogramming Energy Metabolism
+MYC	Genome Instability and Mutation
+PCNA	Genome Instability and Mutation
+PLK1	Evading Apoptosis
+PRKDC	Evading Apoptosis
+PRKDC	Genome Instability and Mutation
+PTTG1	Genome Instability and Mutation
+PTTG2	Genome Instability and Mutation
+RAD21	Genome Instability and Mutation
+RB1	Insensitivity to Antigrowth Signals
+RBX1	Genome Instability and Mutation
+SFN	Insensitivity to Antigrowth Signals
+SFN	Self Sufficiency in Growth Signals
+SMAD2	Insensitivity to Antigrowth Signals
+SMAD2	Tissue Invasion and Metastasis
+SMAD3	Tissue Invasion and Metastasis
+SMAD3	Insensitivity to Antigrowth Signals
+SMAD3	Evading Immune Detection
+SMAD3	Tumor Promoting Inflammation
+SMAD3	Evading Apoptosis
+SMAD4	Insensitivity to Antigrowth Signals
+SMC1A	Genome Instability and Mutation
+SMC1B	Genome Instability and Mutation
+SMC3	Genome Instability and Mutation
+TGFB1	Self Sufficiency in Growth Signals
+TGFB1	Sustained Angiogenesis
+TGFB1	Insensitivity to Antigrowth Signals
+TGFB1	Tissue Invasion and Metastasis
+TGFB2	Self Sufficiency in Growth Signals
+TGFB2	Tissue Invasion and Metastasis
+TGFB2	Insensitivity to Antigrowth Signals
+TGFB3	Tissue Invasion and Metastasis
+TGFB3	Insensitivity to Antigrowth Signals
+TP53	Evading Apoptosis
+TP53	Reprogramming Energy Metabolism
+TP53	Insensitivity to Antigrowth Signals
+TTK	Self Sufficiency in Growth Signals
+YWHAZ	Evading Apoptosis
+YWHAZ	Insensitivity to Antigrowth Signals
+YWHAZ	Self Sufficiency in Growth Signals
+ZBTB17	Insensitivity to Antigrowth Signals

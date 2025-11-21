@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cellcycle.cellcycledata.Dao.cellcycledataDao">
+
+  <resultMap type="com.cellcycle.cellcycledata.Entity.cellcycledata" id="CellcycledataMap">
+    <result property="Gene_Symbol" column="Gene_Symbol" jdbcType="VARCHAR"/>
+    <result property="Description" column="Description" jdbcType="VARCHAR"/>
+    <result property="Category" column="Category" jdbcType="VARCHAR"/>
+    <result property="Species" column="Species" jdbcType="VARCHAR"/>
+    <result property="Gene_ID" column="Gene_ID" jdbcType="VARCHAR"/>
+    <result property="Related_Gene_Symbol" column="Related_Gene_Symbol" jdbcType="VARCHAR"/>
+    <result property="UniProt_ID" column="UniProt_ID" jdbcType="VARCHAR"/>
+    <result property="Ariticle_Title" column="Ariticle_Title" jdbcType="VARCHAR"/>
+    <result property="PMID" column="PMID" jdbcType="VARCHAR"/>
+    <result property="Year_of_Publication" column="Year_of_Publication" jdbcType="VARCHAR"/>
+    <result property="Method" column="Method" jdbcType="VARCHAR"/>
+    <result property="Other_PMID" column="Other_PMID" jdbcType="VARCHAR"/>
+    <result property="Disease" column="Disease" jdbcType="VARCHAR"/>
+    <result property="Evolution" column="Evolution" jdbcType="VARCHAR"/>
+    <result property="Remark" column="Remark" jdbcType="VARCHAR"/>
+    <result property="stage" column="stage" jdbcType="VARCHAR"/>
+  </resultMap>
+
+  <!-- 在 checkpoint表单内查询相关基因东西-->
+
+<!--在表格中查询所有数据-->
+  <select id="selectAllCellcycledata" resultMap="CellcycledataMap">
+    SELECT * FROM cellcyclegenedata
+  </select>
+
+<!--根据输入基因查询单个数据-->
+<!--  <select id="selectByGeneSymbol" resultMap="SleepdataMap">-->
+<!--    SELECT * FROM sleepgenedata WHERE Gene_Symbol = #{Gene_Symbol}-->
+<!--  </select>-->
+
+
+</mapper>
+
